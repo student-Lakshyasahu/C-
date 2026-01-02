@@ -13,3 +13,21 @@ else
     Console.WriteLine("The number is equal");
 }
 
+//Write a C# Sharp program to check
+// whether a given number is even or odd.
+
+Console.WriteLine("Enter any number to check is Even or Odd");
+int number = int.Parse(Console.ReadLine());
+
+if (number < 0)
+{
+    Console.WriteLine("You entered a negative number");
+}
+else if (number == 0 || number % 2 == 0)
+{
+    Console.WriteLine(number + " is a Even number");
+}
+else
+{
+    Console.WriteLine(number + " is a odd number");
+}
