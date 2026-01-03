@@ -27,3 +27,17 @@ for (int i = 1; i <= lines; i++)
     Console.WriteLine();
 }
 
+//Q3 Write a program in C# Sharp to display a pattern
+//like a right angle triangle with a number.
+
+ Console.WriteLine("Enter the number of line you want to print right angle traingle");
+ int lines = int.Parse(Console.ReadLine());
+
+ for (int i = 1; i <= lines; i++)
+ {
+     for (int j = 1; j <= i; j++)
+     {
+         Console.Write(j);
+     }
+     Console.WriteLine();
+ }
