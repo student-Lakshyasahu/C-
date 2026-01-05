@@ -1,0 +1,10 @@
+ // Q1. Write a C# Sharp program that stores elements in an array and prints them.
+int[] arr = new int[5];
+for (int i = 0; i < arr.Length; i++)
+{
+    arr[i] = int.Parse(Console.ReadLine());
+}
+for (int i = 0; i < arr.Length; i++)
+{
+    Console.WriteLine("arr [" + i + "] = " + arr[i]);
+}
